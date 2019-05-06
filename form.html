@@ -2,21 +2,27 @@
 <head>
     <link rel="stylesheet" href="form.css">
 </head>
-<body>
-<h2>Sign Up</h2>
-  <form id="form">
-    <label for="name">Name</label>
-    <input id="name" type="text" name="name" size="10" placeholder="Enter your name" required>
-    <label for="email">Email</label>
-    <input id="email" type="email" name="email"  placeholder="Enter your email" required>
-    <label for="username">Username</label>
-    <input id="username" type="text" name="username" placeholder="Enter your username"
+<body></body>
+  <div id="container">
+    <form id="form">
+      <h2 align="center">Sign Up</h2>
+      <ul>
+        <li><label for="name">Name</label></li>
+            <input id="name" class="space" type="text" name="name"  placeholder="Enter your name" required>
+        <li><label for="email">Email</label></li>
+             <input id="email" class="space" type="email" name="email"  placeholder="Enter your email" required>
+        <li><label for="username">Username</label></li>
+            <input id="username" class="space" type="text" name="username" placeholder="Enter your username"
            required>
-    <label for="password">Password</label>
-    <input id="password" type="password" name="password" placeholder="******" required>
-    <label for="conf-password">Confirm Password</label>
-    <input id="conf-password" type="password" name="conf-password" placeholder="******" required>
-    <input type="submit" value="submit">
-  </form>
+        <li><label for="password">Password</label></li>
+            <input id="password" class="space" type="password" name="password" placeholder="******" required>
+        <li><label for="conf-password">Confirm Password</label></li>
+            <input id="conf-password" class="space" type="password" name="conf-password" placeholder="******" required>
+          <li><input class="space"id="check" type="checkbox">
+              <label for="check">I agree to terms and uses</label></li>
+          </ul>
+            <input id="sub" type="submit" value="Sign Up">
+    </form>
+  </div>
 </body>  
 </html>

@@ -1,5 +1,21 @@
-#form{
-    display:flex;
-    flex-direction:column;
-    
+body{
+  background-image: url("https://i.pinimg.com/originals/8d/88/b0/8d88b094eab735506b66a4494338cf77.jpg");
+}
+ul,li{
+  list-style-type: none;
+}
+
+  .space{
+    margin:10px;
+  }
+  #container{
+    position: relative;
+    border: 2px solid black;
+    margin:0 auto;
+    width: 300px;
+    background-color: #fff;
+  }
+  #sub{
+    margin: 20px;
+    background-color: blueviolet;
   }
